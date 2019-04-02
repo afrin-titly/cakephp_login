@@ -22,7 +22,7 @@
 
 /** General Style Info **/
 body {
-	background: #003d4c;
+	background: #444444;
 	color: #fff;
 	font-family:'lucida grande',verdana,helvetica,arial,sans-serif;
 	font-size:90%;
@@ -78,17 +78,16 @@ p {
 
 #header{
 	padding: 10px 20px;
+	display: flex;
 }
 #header h1 {
-	line-height:20px;
-	background: #003d4c url('../img/cake.icon.png') no-repeat left;
+	background: #444444;
 	color: #fff;
-	padding: 0 30px;
+	padding: 0;
+	margin-right: auto;
 }
 #header h1 a {
 	color: #fff;
-	background: #003d4c;
-	font-weight: normal;
 	text-decoration: none;
 }
 #header h1 a:hover {
@@ -120,7 +119,6 @@ div.index,
 div.view {
 	float:right;
 	width:76%;
-	border-left:1px solid #666;
 	padding:10px 2%;
 }
 div.actions {
@@ -315,7 +313,7 @@ label {
 }
 input, textarea {
 	clear: both;
-	font-size: 140%;
+	/* font-size: 140%; */
 	font-family: "frutiger linotype", "lucida grande", "verdana", sans-serif;
 	padding: 1%;
 	width:98%;
